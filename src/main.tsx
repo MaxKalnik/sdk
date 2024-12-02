@@ -3,7 +3,6 @@ import React from 'react';
 import { ErrorBoundary } from 'react-error-boundary';
 import NotFoundPage from './pages/NotFoundPage';
 import {MainPage} from "./pages/MainPage.tsx";
-import './globals.css';
 
 createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
